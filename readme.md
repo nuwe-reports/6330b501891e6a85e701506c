@@ -28,19 +28,19 @@ Objetivos (user stories)
 Se ha utilizado [fastAPI](https://fastapi.tiangolo.com/) para crear una API, sqlalchemy para almacenar los datos en una BD y pytest para hacer tests automáticos.
 
 #### Job Posts
-Crear: POST /API/v1/jobposts/create
-Update: PUT /API/v1/jobposts/update/{id}
-Delete: DELETE /API/v1/jobposts/delete/{id}
-List: GET /API/v1/jobposts/list
+Crear: POST /API/v1/jobposts/create<br/>
+Update: PUT /API/v1/jobposts/update/{id}<br/>
+Delete: DELETE /API/v1/jobposts/delete/{id}<br/>
+List: GET /API/v1/jobposts/list<br/>
 
-Para buscar job posts: GET /API/v1/jobposts/search?name=nombre_a_buscar
-Se puede buscar por otros campos cambiando name por otro campo
-Se puede buscar por más de un campo concatenadolos con & (name=nombre_a_buscar&skills=skill_a_buscar)
+Para buscar job posts: GET /API/v1/jobposts/search?name=nombre_a_buscar<br/>
+Se puede buscar por otros campos cambiando name por otro campo<br/>
+Se puede buscar por más de un campo concatenadolos con & (name=nombre_a_buscar&skills=skill_a_buscar)<br/>
 
 #### Users
-Crear Usuario: POST /API/v1/users/register
-Suscribir: /API/v1/users/subscribe/{email}
-Desuscribir: /API/v1/users/unsubscribe/{email}
+Crear Usuario: POST /API/v1/users/register<br/>
+Suscribir: /API/v1/users/subscribe/{email}<br/>
+Desuscribir: /API/v1/users/unsubscribe/{email}<br/>
 
 Se puede ver más detalle de los endpoints en [http://127.0.0.1:8000/docs#/](http://127.0.0.1:8000/docs#/). Para consultarlo el servidor debe estar activo.
 
